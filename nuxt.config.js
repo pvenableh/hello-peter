@@ -1,4 +1,3 @@
-
 module.exports = {
   build: {
     vendor: ['axios'] // Add axios in the vendor.bundle.js
@@ -17,5 +16,10 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: 'http://huestudios.com/favicon.ico' }
     ]
   },
-  loading: { color: '#ffCC00', height: '10px' }
+  loading: { color: '#ffCC00', height: '10px' },
+  generate: {
+    routes: [
+      '/posts/1'
+    ]
+  }
 }

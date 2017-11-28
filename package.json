@@ -1,5 +1,5 @@
 {
-  "name": "hello-nuxt",
+  "name": "nuxt-async-data",
   "engines": {
     "node": ">=6.11.5"
   },
