@@ -1,9 +1,10 @@
 
 module.exports = {
-  router: {
+  build: {
+    vendor: ['axios'] // Add axios in the vendor.bundle.js
   },
   head: {
-    title: 'hue creative agency',
+    title: 'TESTING hue creative agency',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
