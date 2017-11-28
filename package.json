@@ -1,6 +1,10 @@
 {
   "name": "hello-nuxt",
+  "engines": {
+    "node": ">=6.11.5"
+  },
   "dependencies": {
+    "axios": "latest",
     "nuxt": "latest"
   },
   "scripts": {
